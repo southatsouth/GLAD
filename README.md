@@ -22,11 +22,15 @@ Download [GoogLeNet model](https://github.com/lim0606/caffe-googlenet-bn) pretra
 ### Train our GLAD
 1. Modify the `prototxt\train_val.prototxt`. Please modify the dataset path in the file.
 
-2. Begin training with 10,0000 iterations. 
+2. End up training with 10,0000 iterations. 
 
-## Test 
+### Step.3 Test 
 1. Extract fc6(and layer1/fc6, layer2/fc6, layer3/fc6) features.
-2. L1 normalization and add weights according our paper.
+2. L1 normalization and add weights according to our paper.
+
+### Our Model
+1. If you require our trained model, please contact Longhui Wei(weilh2568@gmail.com). 
+2. If you have any questions about our code or paper, please contact Longhui Wei
 
 ### Citation
 Please cite this paper in your publications if it helps your research:
