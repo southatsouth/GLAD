@@ -13,18 +13,14 @@ Afer pose estimation, please cut the three parts according to our paper. Example
 You can utilize any pose estimation methods to replace DeeperCut.
 
 ### Step.2 Descriptor Learning
-
 ### Make our caffe
    We have modify the original caffe, please make our provided caffe before run our code.
 ### Dataset
    Download [Market1501 Dataset](http://www.liangzheng.org/Project/project_reid.html). Then process these raw data as step.1.
-
 ### ImageNet Pretrained model
    Download [GoogLeNet model](https://github.com/lim0606/caffe-googlenet-bn) pretrained on Imagenet.
-
 ### Train our GLAD
    1. Modify the `prototxt\train_val.prototxt`. Please modify the dataset path in the file.
-
    2. End up training with 10,0000 iterations. More details, please see the `prototxt\solver_stepsize_6400_2_step3_ver4_65.prototxt`
 
 ### Step.3 Test 
