@@ -14,7 +14,7 @@ You can utilize any pose estimation methods to replace DeeperCut.
 
 ### Step.2 Descriptor Learning
 ### Make our caffe
-   We have modify the original caffe, please make our provided caffe before run our code.
+   We have modify the original caffe, please make our provided caffe before running our code.
 ### Dataset
    Download [Market1501 Dataset](http://www.liangzheng.org/Project/project_reid.html). Then process these raw data as step.1.
 ### ImageNet Pretrained model
