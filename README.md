@@ -1,7 +1,7 @@
 # GLAD
 This repository contains the code for our ACM MM17 paper [GLAD: Global-Local-Alignment Descriptor for Pedestrian Retrieval](https://arxiv.org/pdf/1709.04329.pdf)
 
-![](https://github.com/layumi/Person-reID_GAN/blob/master/fig0.jpg)
+![](https://github.com/layumi/Person-reID_GAN/blob/master/framework.png)
 
 ### 1.Pose Estimation
 The first stage is to estimate the human keypoint.
