@@ -4,10 +4,10 @@ This repository provides the code for our ACM MM17 paper [GLAD: Global-Local-Ali
 ![](https://github.com/JoinWei-PKU/GLAD/blob/master/framework.png)
 
 ### Step.1 Pose Estimation
-The first stage is to estimate the human keypoint.
-We used the deepercut model provided in [DeeperCut](https://github.com/eldar/deepcut). Especially, we utilize the single person pose estimation model.
+The first stage is to estimate the human keypoints.
+We used the deepercut model provided in [DeeperCut](https://github.com/eldar/deepcut). Especially, we utilize the single person pose estimation model provided by the authors.
 
-Afer pose estimation, please cut the three parts according to our paper. Example image is as followes:
+Afer pose estimation, please detect the three parts according to our paper. Example image is as followes:
 ![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example2.jpg)
 
 You can utilize any pose estimation methods to replace DeeperCut.
