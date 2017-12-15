@@ -8,29 +8,32 @@ The first stage is to estimate the human keypoint.
 We used the deepercut model provided in [DeeperCut](https://github.com/eldar/deepcut). Especially, we utilize the single person pose estimation model.
 
 Afer pose estimation, please cut the three parts according to our paper. Examples images as followes:
-![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example1.jpg) ![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example2.jpg)
+![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example2.jpg)
 
 You can utilize any pose estimation methods to replace DeeperCut.
 
 ### Step.2 Descriptor Learning
+
+### Make our caffe
+   We have modify original caffe, please make our caffe before run our code.
 ### Dataset
-Download [Market1501 Dataset](http://www.liangzheng.org/Project/project_reid.html). Then process these raw data as step.1
+   Download [Market1501 Dataset](http://www.liangzheng.org/Project/project_reid.html). Then process these raw data as step.1
 
 ### ImageNet Pretrained model
-Download [GoogLeNet model](https://github.com/lim0606/caffe-googlenet-bn) pretrained on Imagenet.
+   Download [GoogLeNet model](https://github.com/lim0606/caffe-googlenet-bn) pretrained on Imagenet.
 
 ### Train our GLAD
-1. Modify the `prototxt\train_val.prototxt`. Please modify the dataset path in the file.
+   1. Modify the `prototxt\train_val.prototxt`. Please modify the dataset path in the file.
 
-2. End up training with 10,0000 iterations. 
+   2. End up training with 10,0000 iterations. 
 
 ### Step.3 Test 
-1. Extract fc6(and layer1/fc6, layer2/fc6, layer3/fc6) features.
-2. L1 normalization and add weights according to our paper.
+   1. Extract fc6(and layer1/fc6, layer2/fc6, layer3/fc6) features.
+   2. L1 normalization and add weights according to our paper.
 
 ### Our Model
-1. If you require our trained model, please contact Longhui Wei(weilh2568@gmail.com). 
-2. If you have any questions about our code or paper, please contact Longhui Wei
+   1. If you require our trained model, please contact Longhui Wei(weilh2568@gmail.com). 
+   2. If you have any questions about our code or paper, please contact Longhui Wei
 
 ### Citation
 Please cite this paper in your publications if it helps your research:
