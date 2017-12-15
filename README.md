@@ -5,13 +5,12 @@ This repository contains the code for our ACM MM17 paper [GLAD: Global-Local-Ali
 
 ### 1.Pose Estimation
 The first stage is to estimate the human keypoint.
-We used the deepercut model provided in [DeeperCut](https://github.com/eldar/deepcut). 
+We used the deepercut model provided in [DeeperCut](https://github.com/eldar/deepcut). Especially, we utilize the single person pose estimation model.
 
 Afer pose estimation, please cut the three parts according to our paper. Examples images as followes:
-![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example1.jpg)
+![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example1.jpg) ![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example2.jpg)
 
-For more reference, you can find our modified training code and generating code in `./DCGAN`.
-We wrote a detailed [README](https://github.com/layumi/Person-reID_GAN/tree/master/DCGAN). If you still has some question, feel free to contact me (zdzheng12@gmail.com).
+You can utilize any pose estimation methods to replace DeeperCut.
 
 ### 2.Semi-supervised Learning 
 The second stage is to combine the original data and generated data to train the network.
