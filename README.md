@@ -8,7 +8,7 @@ The first stage is to estimate the human keypoint.
 We used the deepercut model provided in [DeeperCut](https://github.com/eldar/deepcut). 
 
 Afer pose estimation, please cut the three parts according to our paper. Examples images as followes:
-![](https://github.com/JoinWei-PKU/GLAD/datasets/example1.jpg)
+![](https://github.com/JoinWei-PKU/GLAD/blob/master/datasets/example1.jpg)
 
 For more reference, you can find our modified training code and generating code in `./DCGAN`.
 We wrote a detailed [README](https://github.com/layumi/Person-reID_GAN/tree/master/DCGAN). If you still has some question, feel free to contact me (zdzheng12@gmail.com).
