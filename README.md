@@ -33,7 +33,7 @@ You can utilize any pose estimation methods to replace DeeperCut.
    2. If you have any questions about our code or paper, please contact Longhui Wei
 
 ### Citation
-Please our paper in your publications if it helps your research:
+Please cite our paper in your publications if it helps your research:
 ```
 @inproceedings{wei2017glad,
   title={GLAD: Global-Local-Alignment Descriptor for Pedestrian Retrieval},
